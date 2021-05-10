@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sweetchips",
+    "module": "platform-jvm",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "3q5f6fno4jauhkkdmwqgktgv5q"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "platform-jvm-0.0.1.jar",
+          "url": "platform-jvm-0.0.1.jar",
+          "size": 15895,
+          "sha512": "add4895250005633f003b00e914e3972b1ea12157edcb744575f9592c5dfb77f243e95b920dc976521af20a6343ae718cd828d6e14b2068c6f0df45f35280fa0",
+          "sha256": "cc4fd4d80e15d0c9e9cce9d2197ca4697b3cb7e9c9341d26771e15ad74756245",
+          "sha1": "790bec01569d411984b05b5d30bb592ed8fb4563",
+          "md5": "20d49e1cafd181d6c97b517e53ead6dc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sweetchips",
+          "module": "utility",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "5.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "platform-jvm-0.0.1.jar",
+          "url": "platform-jvm-0.0.1.jar",
+          "size": 15895,
+          "sha512": "add4895250005633f003b00e914e3972b1ea12157edcb744575f9592c5dfb77f243e95b920dc976521af20a6343ae718cd828d6e14b2068c6f0df45f35280fa0",
+          "sha256": "cc4fd4d80e15d0c9e9cce9d2197ca4697b3cb7e9c9341d26771e15ad74756245",
+          "sha1": "790bec01569d411984b05b5d30bb592ed8fb4563",
+          "md5": "20d49e1cafd181d6c97b517e53ead6dc"
+        }
+      ]
+    }
+  ]
+}

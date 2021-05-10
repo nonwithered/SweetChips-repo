@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sweetchips",
+    "module": "gradle-common",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "3q5f6fno4jauhkkdmwqgktgv5q"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.sweetchips",
+          "module": "platform-common",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "org.sweetchips",
+          "module": "platform-jvm",
+          "version": {
+            "requires": "0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-common-0.0.1.jar",
+          "url": "gradle-common-0.0.1.jar",
+          "size": 13183,
+          "sha512": "5187f1079de1b7dbf55913d324ae92e6091faf7cdbbfe86b769ca1e8f8e5e892ce6e9c5a6ee9fb8b955a120b470620e08173c2039bebcb0bbe891a8506fc7058",
+          "sha256": "a00e0e7712927a7a1e5841503f7159a5de79109ec1848db4553f1854e6b28e73",
+          "sha1": "3c23ccaa244aac15468d9051da56ea3890b29250",
+          "md5": "82bf823172a0640f38f097c919023080"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sweetchips",
+          "module": "utility",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "org.sweetchips",
+          "module": "platform-common",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "org.sweetchips",
+          "module": "platform-jvm",
+          "version": {
+            "requires": "0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-common-0.0.1.jar",
+          "url": "gradle-common-0.0.1.jar",
+          "size": 13183,
+          "sha512": "5187f1079de1b7dbf55913d324ae92e6091faf7cdbbfe86b769ca1e8f8e5e892ce6e9c5a6ee9fb8b955a120b470620e08173c2039bebcb0bbe891a8506fc7058",
+          "sha256": "a00e0e7712927a7a1e5841503f7159a5de79109ec1848db4553f1854e6b28e73",
+          "sha1": "3c23ccaa244aac15468d9051da56ea3890b29250",
+          "md5": "82bf823172a0640f38f097c919023080"
+        }
+      ]
+    }
+  ]
+}
