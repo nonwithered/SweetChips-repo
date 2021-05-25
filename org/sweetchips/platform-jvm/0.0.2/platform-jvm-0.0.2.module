@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sweetchips",
+    "module": "platform-jvm",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "exroof3vsbfxhntlsu4bt3aai4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "platform-jvm-0.0.2.jar",
+          "url": "platform-jvm-0.0.2.jar",
+          "size": 42718,
+          "sha512": "ea968811b2a4b856aade42cc74567290fd4b7c4efae8f1af7d42a4d041938dcaecddd347c4492686a7bfbe2aed58811fa643329a9a3ada0f07ad17ffc609e879",
+          "sha256": "b529e1b70226ab25cff55b93bac96e611ec8457b7e1c5b7c277663b0ba2b50e5",
+          "sha1": "3df9b016850f9c3d1f40239f57cddc0594361682",
+          "md5": "eaa59f30885e8034816fa4e12c39b3fe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.sweetchips",
+          "module": "utility",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "5.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "platform-jvm-0.0.2.jar",
+          "url": "platform-jvm-0.0.2.jar",
+          "size": 42718,
+          "sha512": "ea968811b2a4b856aade42cc74567290fd4b7c4efae8f1af7d42a4d041938dcaecddd347c4492686a7bfbe2aed58811fa643329a9a3ada0f07ad17ffc609e879",
+          "sha256": "b529e1b70226ab25cff55b93bac96e611ec8457b7e1c5b7c277663b0ba2b50e5",
+          "sha1": "3df9b016850f9c3d1f40239f57cddc0594361682",
+          "md5": "eaa59f30885e8034816fa4e12c39b3fe"
+        }
+      ]
+    }
+  ]
+}

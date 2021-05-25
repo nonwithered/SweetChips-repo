@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sweetchips",
+    "module": "plugin-inline-tailor",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "exroof3vsbfxhntlsu4bt3aai4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "plugin-inline-tailor-0.0.2.jar",
+          "url": "plugin-inline-tailor-0.0.2.jar",
+          "size": 15377,
+          "sha512": "26738c4f93d8d3cc3f491d24eab6a96f6e813825c8ec872f6203ba63bf7739edf007fa69af90eaa7b4fab34b9132a31dbcc9771fde0a2f9a4852a186d38e4a09",
+          "sha256": "e121a898c3fe4fe431ec981b06e4bf6ca17655fd2ae88cfda58198c27d695110",
+          "sha1": "232cd60a6e2ae9ec2ba50a4aa66780363632afb0",
+          "md5": "abd96926c321a5feaaa90de79ed66668"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sweetchips",
+          "module": "utility",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "org.sweetchips",
+          "module": "annotations",
+          "version": {
+            "requires": "0.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-inline-tailor-0.0.2.jar",
+          "url": "plugin-inline-tailor-0.0.2.jar",
+          "size": 15377,
+          "sha512": "26738c4f93d8d3cc3f491d24eab6a96f6e813825c8ec872f6203ba63bf7739edf007fa69af90eaa7b4fab34b9132a31dbcc9771fde0a2f9a4852a186d38e4a09",
+          "sha256": "e121a898c3fe4fe431ec981b06e4bf6ca17655fd2ae88cfda58198c27d695110",
+          "sha1": "232cd60a6e2ae9ec2ba50a4aa66780363632afb0",
+          "md5": "abd96926c321a5feaaa90de79ed66668"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sweetchips",
+    "module": "gradle-android",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "exroof3vsbfxhntlsu4bt3aai4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gradle-android-0.0.2.jar",
+          "url": "gradle-android-0.0.2.jar",
+          "size": 8754,
+          "sha512": "3f2fec31208cd7571c14fbbed670166e55ff2232287a4a67370af3f7fd63fcb511b98b748e4a16fcc637719813e47868fbe0c89ac7171de39e69d8c35883d152",
+          "sha256": "cf007f014a68eac3c7125f7cd8f8434d0bd6eb91118364a29af4bff26256874a",
+          "sha1": "261a200f057f08315eb7cb71e48b44c6e161e423",
+          "md5": "999b6a823ee9810a358df8e1510a3390"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sweetchips",
+          "module": "utility",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "org.sweetchips",
+          "module": "gradle-common",
+          "version": {
+            "requires": "0.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-android-0.0.2.jar",
+          "url": "gradle-android-0.0.2.jar",
+          "size": 8754,
+          "sha512": "3f2fec31208cd7571c14fbbed670166e55ff2232287a4a67370af3f7fd63fcb511b98b748e4a16fcc637719813e47868fbe0c89ac7171de39e69d8c35883d152",
+          "sha256": "cf007f014a68eac3c7125f7cd8f8434d0bd6eb91118364a29af4bff26256874a",
+          "sha1": "261a200f057f08315eb7cb71e48b44c6e161e423",
+          "md5": "999b6a823ee9810a358df8e1510a3390"
+        }
+      ]
+    }
+  ]
+}
