@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sweetchips",
+    "module": "platform-common",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "yva6hdpjabexvfjup6i5y25ffy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "platform-common-0.0.4.jar",
+          "url": "platform-common-0.0.4.jar",
+          "size": 82302,
+          "sha512": "f0618cb374c9dbdd2d88f70900c49b6184e0d4419e9b9ee4f6c8114962c8107d7e6e8de0f23d25a61b28e412f4418d42480dc67806c12b1993b08adbf2f0e720",
+          "sha256": "66ade6f9ca2d88702de73b1562a2dd08bfc81dfb3b55b0078b1aed62f1cfb1eb",
+          "sha1": "edd043c066f11cfdd99fed77a3958768b672e5f6",
+          "md5": "4dd4c9e9c9cb8819f41bce666cb3f94"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.sweetchips",
+          "module": "utility",
+          "version": {
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "platform-common-0.0.4.jar",
+          "url": "platform-common-0.0.4.jar",
+          "size": 82302,
+          "sha512": "f0618cb374c9dbdd2d88f70900c49b6184e0d4419e9b9ee4f6c8114962c8107d7e6e8de0f23d25a61b28e412f4418d42480dc67806c12b1993b08adbf2f0e720",
+          "sha256": "66ade6f9ca2d88702de73b1562a2dd08bfc81dfb3b55b0078b1aed62f1cfb1eb",
+          "sha1": "edd043c066f11cfdd99fed77a3958768b672e5f6",
+          "md5": "4dd4c9e9c9cb8819f41bce666cb3f94"
+        }
+      ]
+    }
+  ]
+}

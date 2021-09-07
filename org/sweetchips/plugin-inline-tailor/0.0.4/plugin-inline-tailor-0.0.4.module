@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sweetchips",
+    "module": "plugin-inline-tailor",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "yva6hdpjabexvfjup6i5y25ffy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "plugin-inline-tailor-0.0.4.jar",
+          "url": "plugin-inline-tailor-0.0.4.jar",
+          "size": 15377,
+          "sha512": "99802ed96de99292e40364e66c30f0a06b9cb96decf5de15103d77e93a78a3ec6f3d2490afb2d4bb363d42c78ef216d483158beeb9082e1bb02309c2b3f3d692",
+          "sha256": "92d231bccfacfb16025617f14f4a778d0043a70bf0f698153a71f61c9a0d76c9",
+          "sha1": "6956b9ad3a718227b7ca52aaffc93658378aafeb",
+          "md5": "5153a3ba59741f1d98c9038a1342404"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sweetchips",
+          "module": "utility",
+          "version": {
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "org.sweetchips",
+          "module": "annotations",
+          "version": {
+            "requires": "0.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-inline-tailor-0.0.4.jar",
+          "url": "plugin-inline-tailor-0.0.4.jar",
+          "size": 15377,
+          "sha512": "99802ed96de99292e40364e66c30f0a06b9cb96decf5de15103d77e93a78a3ec6f3d2490afb2d4bb363d42c78ef216d483158beeb9082e1bb02309c2b3f3d692",
+          "sha256": "92d231bccfacfb16025617f14f4a778d0043a70bf0f698153a71f61c9a0d76c9",
+          "sha1": "6956b9ad3a718227b7ca52aaffc93658378aafeb",
+          "md5": "5153a3ba59741f1d98c9038a1342404"
+        }
+      ]
+    }
+  ]
+}

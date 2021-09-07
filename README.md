@@ -7,12 +7,12 @@ Gradle用户可以这样配置：
 ``` groovy
 buildscript {
     repositories {
-        maven { url 'https://raw.githubusercontent.com/nonwithered/SweetChips-repo/master' }
+        maven { url 'https://raw.githubusercontent.com/nonwithered/SweetChips-repo/v0.0.4' }
     }
 }
 allprojects {
     repositories {
-        maven { url 'https://raw.githubusercontent.com/nonwithered/SweetChips-repo/master' }
+        maven { url 'https://raw.githubusercontent.com/nonwithered/SweetChips-repo/v0.0.4' }
     }
 }
 ```
@@ -23,13 +23,13 @@ Maven用户可以这样配置：
 <repositories>
     <repository>
         <id>SweetChips-repository</id>
-        <url>https://raw.githubusercontent.com/nonwithered/SweetChips-repo/master</url>
+        <url>https://raw.githubusercontent.com/nonwithered/SweetChips-repo/v0.0.4</url>
     </repository>
 </repositories>
 <pluginRepositories>
     <pluginRepository>
         <id>SweetChips-pluginRepository</id>
-        <url>https://raw.githubusercontent.com/nonwithered/SweetChips-repo/master</url>
+        <url>https://raw.githubusercontent.com/nonwithered/SweetChips-repo/v0.0.4</url>
     </pluginRepository>
 </pluginRepositories>
 ```
@@ -37,7 +37,7 @@ Maven用户可以这样配置：
 但是这种方式也许会比较缓慢，您也可以选择在您的项目根目录下执行以下命令：
 
 ``` bash
-git clone git@github.com:nonwithered/SweetChips-repo.git
+git clone -b v0.0.4 git@github.com:nonwithered/SweetChips-repo.git
 ```
 
 然后添加以下配置：

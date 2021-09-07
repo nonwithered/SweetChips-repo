@@ -1,0 +1,70 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sweetchips",
+    "module": "plugin-sourceline-eraser",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "yva6hdpjabexvfjup6i5y25ffy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "plugin-sourceline-eraser-0.0.4.jar",
+          "url": "plugin-sourceline-eraser-0.0.4.jar",
+          "size": 5983,
+          "sha512": "9f73e683b78f5d4744e7641cc26ce585867ef5093c229ac01ea6b3df93942be388cb03ed3e45ec392baed93e4cc84d9770bce10052b5bae8fc789c12736b9b8e",
+          "sha256": "642b414e30e4a2c54c18470fa91bbbe25a088f14d4025fedc68629ef67214676",
+          "sha1": "a8a17a99070559a4ca4ec0442798f2b7d925ae87",
+          "md5": "c9b23aefa9c741dceaeeb7663083daa4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sweetchips",
+          "module": "utility",
+          "version": {
+            "requires": "0.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-sourceline-eraser-0.0.4.jar",
+          "url": "plugin-sourceline-eraser-0.0.4.jar",
+          "size": 5983,
+          "sha512": "9f73e683b78f5d4744e7641cc26ce585867ef5093c229ac01ea6b3df93942be388cb03ed3e45ec392baed93e4cc84d9770bce10052b5bae8fc789c12736b9b8e",
+          "sha256": "642b414e30e4a2c54c18470fa91bbbe25a088f14d4025fedc68629ef67214676",
+          "sha1": "a8a17a99070559a4ca4ec0442798f2b7d925ae87",
+          "md5": "c9b23aefa9c741dceaeeb7663083daa4"
+        }
+      ]
+    }
+  ]
+}
