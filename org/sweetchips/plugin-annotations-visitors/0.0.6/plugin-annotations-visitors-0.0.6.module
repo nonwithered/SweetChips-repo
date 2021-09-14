@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sweetchips",
+    "module": "plugin-annotations-visitors",
+    "version": "0.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "iasetqhksbb2bf54g7ckmddd54"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "plugin-annotations-visitors-0.0.6.jar",
+          "url": "plugin-annotations-visitors-0.0.6.jar",
+          "size": 9417,
+          "sha512": "dd36ce6601c882ccce5a0bfa095e37f09eece0e1cd76669d8541b29646ba99455553fc0bb6e4def9f2be0e185b5fccc67d69ba1db169485563f2211ea6491425",
+          "sha256": "3134c7c8544d22c699660f7b6d7ad8626ead273e2548439fe131ec1455367c9",
+          "sha1": "bacaa7106608aa45c704ddebe10975344209ac38",
+          "md5": "28c4656fd7a21fafca67b5c73f5b3c3e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sweetchips",
+          "module": "utility",
+          "version": {
+            "requires": "0.0.6"
+          }
+        },
+        {
+          "group": "org.sweetchips",
+          "module": "annotations",
+          "version": {
+            "requires": "0.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-annotations-visitors-0.0.6.jar",
+          "url": "plugin-annotations-visitors-0.0.6.jar",
+          "size": 9417,
+          "sha512": "dd36ce6601c882ccce5a0bfa095e37f09eece0e1cd76669d8541b29646ba99455553fc0bb6e4def9f2be0e185b5fccc67d69ba1db169485563f2211ea6491425",
+          "sha256": "3134c7c8544d22c699660f7b6d7ad8626ead273e2548439fe131ec1455367c9",
+          "sha1": "bacaa7106608aa45c704ddebe10975344209ac38",
+          "md5": "28c4656fd7a21fafca67b5c73f5b3c3e"
+        }
+      ]
+    }
+  ]
+}

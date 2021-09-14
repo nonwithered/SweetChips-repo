@@ -1,0 +1,70 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sweetchips",
+    "module": "plugin-recursive-tail",
+    "version": "0.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "iasetqhksbb2bf54g7ckmddd54"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "plugin-recursive-tail-0.0.6.jar",
+          "url": "plugin-recursive-tail-0.0.6.jar",
+          "size": 6332,
+          "sha512": "f841c27afafdf47977c2a363359ea03b3ddcede1753e2dc8222027320c4fececcfc145257b70817c5bdf9a5403085baa4bce6c9f917754074501aaca6365b2b9",
+          "sha256": "b13466d97585d61b9fd69a12e1efc75d910a5058f8bf6dd06564328af8673b46",
+          "sha1": "b50edbae8b10e3bfac6036e72f2f04d1e74a303d",
+          "md5": "99acc18c8d78d47d7a08cec52bb86098"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sweetchips",
+          "module": "utility",
+          "version": {
+            "requires": "0.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-recursive-tail-0.0.6.jar",
+          "url": "plugin-recursive-tail-0.0.6.jar",
+          "size": 6332,
+          "sha512": "f841c27afafdf47977c2a363359ea03b3ddcede1753e2dc8222027320c4fececcfc145257b70817c5bdf9a5403085baa4bce6c9f917754074501aaca6365b2b9",
+          "sha256": "b13466d97585d61b9fd69a12e1efc75d910a5058f8bf6dd06564328af8673b46",
+          "sha1": "b50edbae8b10e3bfac6036e72f2f04d1e74a303d",
+          "md5": "99acc18c8d78d47d7a08cec52bb86098"
+        }
+      ]
+    }
+  ]
+}

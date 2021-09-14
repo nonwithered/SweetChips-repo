@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sweetchips",
+    "module": "plugin-inline-tailor-plus",
+    "version": "0.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "iasetqhksbb2bf54g7ckmddd54"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "plugin-inline-tailor-plus-0.0.6.jar",
+          "url": "plugin-inline-tailor-plus-0.0.6.jar",
+          "size": 8151,
+          "sha512": "1bbe9d5d15d40325daaf524320d27521d6a4b7cb82bdc18fdb19e73c45cc4a729224dc19195c4141399161f78884fb5bfcf727272b7705e67ee86894ee0b3dff",
+          "sha256": "9b58d10a6eb3ce88b75356185f16817cac3e65987293a8ac7862e8d5cde57ac6",
+          "sha1": "5603afb3eb6ff2d41cabed3801b55abcdfe19be0",
+          "md5": "19f5d208df19180682d36b56080217e0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sweetchips",
+          "module": "utility",
+          "version": {
+            "requires": "0.0.6"
+          }
+        },
+        {
+          "group": "org.sweetchips",
+          "module": "annotations",
+          "version": {
+            "requires": "0.0.6"
+          }
+        },
+        {
+          "group": "org.sweetchips",
+          "module": "plugin-inline-tailor",
+          "version": {
+            "requires": "0.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-inline-tailor-plus-0.0.6.jar",
+          "url": "plugin-inline-tailor-plus-0.0.6.jar",
+          "size": 8151,
+          "sha512": "1bbe9d5d15d40325daaf524320d27521d6a4b7cb82bdc18fdb19e73c45cc4a729224dc19195c4141399161f78884fb5bfcf727272b7705e67ee86894ee0b3dff",
+          "sha256": "9b58d10a6eb3ce88b75356185f16817cac3e65987293a8ac7862e8d5cde57ac6",
+          "sha1": "5603afb3eb6ff2d41cabed3801b55abcdfe19be0",
+          "md5": "19f5d208df19180682d36b56080217e0"
+        }
+      ]
+    }
+  ]
+}
