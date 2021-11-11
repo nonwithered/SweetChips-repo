@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sweetchips",
+    "module": "maven-java",
+    "version": "0.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "pwg5swrykbgklmld4ssy4wryza"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.sweetchips",
+          "module": "platform-common",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.sweetchips",
+          "module": "platform-jvm",
+          "version": {
+            "requires": "0.0.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "maven-java-0.0.7.jar",
+          "url": "maven-java-0.0.7.jar",
+          "size": 8675,
+          "sha512": "d65d3629fdb9ce4b597d3f88388e2a64e9181d791761d5a3e6a805885bb763755268c7b729c6e09d7b466bab2807ac0d49eef967fd25a0fe7b4a83c6187daf35",
+          "sha256": "a90f40e24c201b8399383382aaf8a86a29c39d02cbd53a18dfc8f65d00ec6bbd",
+          "sha1": "f9f8830ef9f38493b3dbb2d1f37cdb8ec952f50b",
+          "md5": "b779128bec8bac1cb9f509202dd2f69"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sweetchips",
+          "module": "utility",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.sweetchips",
+          "module": "platform-common",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.sweetchips",
+          "module": "platform-jvm",
+          "version": {
+            "requires": "0.0.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "maven-java-0.0.7.jar",
+          "url": "maven-java-0.0.7.jar",
+          "size": 8675,
+          "sha512": "d65d3629fdb9ce4b597d3f88388e2a64e9181d791761d5a3e6a805885bb763755268c7b729c6e09d7b466bab2807ac0d49eef967fd25a0fe7b4a83c6187daf35",
+          "sha256": "a90f40e24c201b8399383382aaf8a86a29c39d02cbd53a18dfc8f65d00ec6bbd",
+          "sha1": "f9f8830ef9f38493b3dbb2d1f37cdb8ec952f50b",
+          "md5": "b779128bec8bac1cb9f509202dd2f69"
+        }
+      ]
+    }
+  ]
+}

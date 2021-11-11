@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sweetchips",
+    "module": "plugin-trace-weaver",
+    "version": "0.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "pwg5swrykbgklmld4ssy4wryza"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-trace-weaver-0.0.7.jar",
+          "url": "plugin-trace-weaver-0.0.7.jar",
+          "size": 19186,
+          "sha512": "d6983552ecaf6575b59d9a372cc88f576dd4e23b9f1652ffa356f8ca0cfef314cf1f9ace59e3cda32eb9df74f39a459f051ccd3d36662cc530e3800be109dcfa",
+          "sha256": "c3961906271288295744c22b23f00a98b3f9dbcb2cdea81a74836f3b067990",
+          "sha1": "83fb4982c1e4689404d35a8eb44dffedc24f8fa3",
+          "md5": "6762eb3ec062b3fc0830a8d7833a797b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.sweetchips",
+          "module": "utility",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-trace-weaver-0.0.7.jar",
+          "url": "plugin-trace-weaver-0.0.7.jar",
+          "size": 19186,
+          "sha512": "d6983552ecaf6575b59d9a372cc88f576dd4e23b9f1652ffa356f8ca0cfef314cf1f9ace59e3cda32eb9df74f39a459f051ccd3d36662cc530e3800be109dcfa",
+          "sha256": "c3961906271288295744c22b23f00a98b3f9dbcb2cdea81a74836f3b067990",
+          "sha1": "83fb4982c1e4689404d35a8eb44dffedc24f8fa3",
+          "md5": "6762eb3ec062b3fc0830a8d7833a797b"
+        }
+      ]
+    }
+  ]
+}
